@@ -62,8 +62,7 @@ function App() {
     form.append("pdf", file);
     
     try {
-      const apiUrl = import.meta.env.VITE_API_URL || "";
-      const res = await fetch(`${apiUrl}/api/upload`, { method: "POST", body: form });
+      const res = await fetch("/api/upload", { method: "POST", body: form });
       if (!res.ok) throw new Error("Upload failed");
       const data = await res.json();
       setFileInfo(data);
@@ -77,8 +76,7 @@ function App() {
   const triggerAnalysis = async (fileId: string, q: string) => {
     setStatus("analyzing");
     try {
-      const apiUrl = import.meta.env.VITE_API_URL || "";
-      const res = await fetch(`${apiUrl}/api/analyze`, {
+      const res = await fetch("/api/analyze", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ fileId, question: q }),
@@ -103,8 +101,7 @@ function App() {
     if (!runId) return;
     const id = setInterval(async () => {
       try {
-        const apiUrl = import.meta.env.VITE_API_URL || "";
-        const res = await fetch(`${apiUrl}/api/run/${runId}`);
+        const res = await fetch(`/api/run/${runId}`);
         if (!res.ok) return;
         const data = await res.json();
         if (data.status === "done") {
