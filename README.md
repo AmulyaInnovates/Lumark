@@ -1,6 +1,6 @@
 # Lumark: Next-Gen AI Document Intelligence
 
-![Lumark Banner](./Lumark_Showcase/process/fix_chart_visibility_verify_1773596326551.webp)
+![Lumark Banner](https://github.com/AmulyaInnovates/Lumark/blob/master/Project%20Working.mkv)
 
 Lumark is a premium multi-modal AI platform designed to transform complex PDF documents into actionable strategic insights. Leveraging high-resolution vision models and semantic analysis, Lumark "sheds light" on your data with precision.
 
