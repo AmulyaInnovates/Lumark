@@ -1,0 +1,12 @@
+{
+  "name": "lumark",
+  "version": "1.0.0",
+  "scripts": {
+    "start:backend": "cd server && npm run dev",
+    "start:frontend": "cd client && npm run dev",
+    "dev": "concurrently \"npm run start:backend\" \"npm run start:frontend\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}

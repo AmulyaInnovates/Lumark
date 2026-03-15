@@ -1,0 +1,57 @@
+﻿{
+  "summary": "The document is an 'Employability Skills' textbook for Class X, published in February 2020 by the National Council of Educational Research and Training (NCERT). It includes acknowledgments to the project approval board, officials, and contributors. The textbook covers topics on effective communication, self-management, information and communication technology, entrepreneurial, and green skills. It emphasizes the importance of communication, including verbal and non-verbal communication, and provides guidelines on how to overcome communication barriers. The textbook also covers sustainable development, sustainable cities, and communities. It includes a table of contents, an index, and a section on data insights with graphical data and statistical trends.",
+  "positives": [
+    "Acknowledgments to contributors and officials",
+    "Comprehensive coverage of employability skills",
+    "Emphasis on effective communication and communication barriers",
+    "Inclusion of sustainable development and green skills",
+    "Use of images and graphical data for data insights",
+    "Structured outline with sections on communication, self-management, and sustainable development"
+  ],
+  "negatives": [
+    "Complex language in some sections",
+    "Need for more practical examples and case studies",
+    "Limited use of interactive activities and quizzes",
+    "Lack of glossary or index in the first edition"
+  ],
+  "actions": [
+    "Simplify language and provide clear examples",
+    "Include more practical examples and case studies",
+    "Add interactive activities and quizzes for better engagement",
+    "Develop a glossary and index for easier reference"
+  ],
+  "metrics": {
+    "Number of pages": 115,
+    "Number of editions": 1,
+    "Publication date": "February 2020",
+    "ISBN": "978-93-5292-218-5"
+  },
+  "dataInsights": [
+    {
+      "Title": "Employability Skills Table of Contents",
+      "Observations": "The table of contents includes sections on communication, self-management, information and communication technology, entrepreneurial, and green skills."
+    },
+    {
+      "Title": "Communication Barriers",
+      "Observations": "The textbook includes a section on communication barriers with ways to overcome them."
+    },
+    {
+      "Title": "Sustainable Development Goals",
+      "Observations": "The textbook includes a section on sustainable development goals with examples and practical ways to contribute."
+    },
+    {
+      "Title": "Data Insights",
+      "Observations": "The textbook includes a section on data insights with graphical data and statistical trends."
+    }
+  ],
+  "outline": [
+    "Acknowledgments",
+    "Communication",
+    "Self-Management",
+    "Information and Communication Technology",
+    "Entrepreneurial Skills",
+    "Green Skills",
+    "Data Insights",
+    "Foreword"
+  ]
+}

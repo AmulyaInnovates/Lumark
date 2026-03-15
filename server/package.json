@@ -12,6 +12,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@napi-rs/canvas": "^0.1.96",
     "@thednp/dommatrix": "^3.0.2",
     "cors": "^2.8.6",
     "dommatrix": "^1.0.3",
@@ -19,6 +20,7 @@
     "express": "^5.2.1",
     "multer": "^2.1.1",
     "pdf-parse": "^2.4.5",
+    "pdfjs-dist": "^5.4.296",
     "uuid": "^13.0.0"
   }
 }
