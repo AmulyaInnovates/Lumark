@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: lumark-api
+    env: node
+    rootDir: server
+    buildCommand: npm install
+    startCommand: npm run start
+    envVars:
+      - key: PORT
+        value: 4000
+      - key: NVIDIA_API_KEY
+        sync: false
+    plan: free
